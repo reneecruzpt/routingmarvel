@@ -1,0 +1,16 @@
+.project-info{
+    font-family: RobotoRegular;
+    font-size: 1.5em;
+    top: 21vh; 
+    left: 25vw; 
+    max-width: 50vw; 
+    width: 100%;
+}
+
+.paragraph-margin{
+    margin-bottom: 10px;
+}
+.marvel-font{
+    font-family: MarvelFont;
+    font-size: 1.2em;
+}

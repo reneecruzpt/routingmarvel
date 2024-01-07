@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('/src/fonts/Roboto-Regular.ttf') format('truetype'); /* Substitua pelo caminho e formato da sua fonte */
+    /* Adicione mais formatos se necessário (eot, ttf, svg, etc.) */
+  }
+
+.header2  {
+    font-family: 'MarvelFont';
+    color: #ffffff;
+    background-color: red;
+    font-size: 3em;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .welcome{
+    font-family: RobotoRegular;
+    font-size: 1.5em;
+    position: absolute;
+    top: 22vh; 
+    left: 25vw;
+    max-width: 50vw;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

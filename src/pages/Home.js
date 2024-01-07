@@ -1,10 +1,11 @@
-//Home.js
+// Home.js
 import React from 'react';
+import Welcome from '../Welcome';
 
 const Home = () => {
   return (
     <div>
-      <h2>Bem-vindo à Página Inicial</h2>
+      <Welcome  />
     </div>
   );
 };

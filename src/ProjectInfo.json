@@ -1,0 +1,17 @@
+[
+  {
+    "reactVersion": "^18.2.0",
+    "nodeVersion": "v20.10.0",
+    "apiUrl": "https://developer.marvel.com/",
+    "professorName": "Carlos Guerra",
+    "ucInfo": "Aplicações Web",
+    "courseInfo": "Desenvolvimento de Software",
+    "schoolInfo": "ESAN",
+    "local": "Estarreja",
+    "students": [
+      "Enrico Orsatti",
+      "João Lucas",
+      "Reneê Cruz"
+    ]
+  }
+]

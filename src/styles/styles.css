@@ -1,0 +1,138 @@
+/* styles.css */
+
+@font-face {
+  font-family: 'MarvelFont';
+  src: url('/src/fonts/Marvel-Regular.otf') format('opentype'); /* Substitua pelo caminho e formato da sua fonte */
+  /* Adicione mais formatos se necessário (eot, ttf, svg, etc.) */
+}
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-image: url('/public/marvelBackground.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Coloca a imagem atrás de outros elementos da página */
+  margin: 0;
+}
+
+.general-container{
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.comic-container {
+  top: 20vh; 
+  left: 34vw; 
+  max-width: 30vw; 
+}
+
+.botoes-lado {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+
+.centerText{
+  text-align: center;
+}
+
+.headerFont  {
+  font-family: 'MarvelFont';
+  color: #ffffff;
+  background-color: red;
+  font-size: 2.5em;
+  margin: 0;
+  width: 80%;
+}
+
+.paddingTopBottom{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#comic-image-container{
+  background-color: black;
+  width: 50%;
+  margin: 0;
+}
+
+#comic-image{
+  width: 100%;
+  margin: 0;
+}
+
+.buttonGenerate{
+  background-color: transparent;
+  background-color: none;
+  border: 0px;
+  position: relative;
+
+  cursor: pointer;
+}
+
+@keyframes ripple-animation {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.buttonGenerate .ripple {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple-animation 0.6s linear;
+  background-color: rgba(255, 255, 255, 0.7);
+  pointer-events: none;
+}
+.customImage{
+  width: 40vh;
+  margin-bottom: 5vh;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.pulsating-heart {
+  width: 45vh;
+  animation: pulse 2s infinite;
+}
+
+.btnDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.tap{
+  font-family: 'MarvelFont';
+  color: #ffffff;
+  background-color: red;
+  font-size: 1.5em;
+  margin: 0;
+  text-align: center;
+  border: 0;
+  width: 80%;
+  margin-right: 10%;
+}
+
+.paragraph-left-margin2{
+  padding-right:10%;
+}

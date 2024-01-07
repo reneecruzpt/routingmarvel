@@ -1,0 +1,42 @@
+/* Navbar.css */
+
+@font-face {
+  font-family: 'RobotoCondensed';
+  src: url('/src/fonts/RobotoCondensed.ttf') format('truetype'); 
+}
+.centerText{
+  text-align: center;
+}
+
+.navbarHeader  {
+  font-family: 'MarvelFont';
+  color: #ffffff;
+  background-color: #202020;
+  font-size: 3em;
+  border: 1px solid white;
+  margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin-left: 2%
+  }
+  
+  nav li {
+    margin-right: 20px; 
+    font-size: 1em;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-family: 'RobotoCondensed';
+    color: white;
+    font-weight: bold; 
+  }
+
+  .navbar{
+    background-color: #202020;
+    border: 1px solid white;
+  }
+
