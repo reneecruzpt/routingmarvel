@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prestart": "node feedJsonLocal.js",
+    "prestart": "npm run checkDependencies && react-scripts start",
+    "checkDependencies": "npm ls react-router-dom || npm install react-router-dom",
     "feedJsonLocal": "node feedJsonLocal.js"
   },
   "eslintConfig": {
