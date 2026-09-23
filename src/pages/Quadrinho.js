@@ -27,8 +27,8 @@ const Quadrinho = () => {
   };
 
   const loadRandomComic = () => {
-    const publicKey = '186f909edc37adb13e9b97e98a806bec';
-    const privateKey = 'd5ad5c902f3cb774a5587a241dedb7610f4c9f7d';
+    const publicKey = process.env.REACT_APP_MARVEL_PUBLIC_KEY || 'SUA_CHAVE_PUBLICA_AQUI';
+    const privateKey = process.env.REACT_APP_MARVEL_PRIVATE_KEY || 'SUA_CHAVE_PRIVADA_AQUI';
     const apiUrl = 'https://gateway.marvel.com/v1/public/comics';
 
     const currentDate = new Date();
